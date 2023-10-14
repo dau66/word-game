@@ -98,7 +98,7 @@ def hint(str1, str2):
     while i < 5:
         while j < 5:
             if list1[i] == list2[j] and i == j:
-                print('\033[32m' + list1[i] + '\033[0m', end='')
+                print('\033[33m' + list1[i] + '\033[0m', end='')
                 c1 += 1
                 break
             elif list1[i] == list2[j] and i != j:
