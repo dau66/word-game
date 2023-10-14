@@ -116,10 +116,10 @@ def hint(str1, str2):
     return 0
 
 
-correct = 'apple'
+correct = words[random.randint(0,491)]
 trial_count = 0
 print('Guess the word')
-print('Yellow is word choice is ok but, another location.\n Green is correct', end='')
+print('Yellow is word choice is ok but,another location.\n Green is correct', end='')
 while True:
     ans = input('\n')
     if (ans == 'giveup'):
