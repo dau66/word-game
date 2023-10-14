@@ -126,10 +126,10 @@ while True:
         print('The answer is ' + correct + '\n')
         print('Trial counter is ' + str(trial_count) + '\n')
         break
-    # elif (len(ans) != 5 or ans not in words):
-    #     trial_count += 1
-    #     print('try again', end='')
-    #     continue
+    elif (len(ans) != 5 or ans not in words):
+        trial_count += 1
+        print('try again', end='')
+        continue
     elif (ans == correct):
         print('Correct!\n')
         print('Trial counter is ' + str(trial_count) + '\n')
